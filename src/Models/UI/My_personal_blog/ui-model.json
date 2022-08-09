@@ -25,8 +25,24 @@
       "category": "OUTPUT",
       "transformationStep": {
         "id": "cf11bb27-249d-414e-95f1-dd9b3d6c0f86",
-        "title": "My_personal_blog",
-        "transformationType": "OUTPUT"
+        "title": "my_personal_blog",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "my_personal_blog",
+          "fields": [
+            {
+              "target": "string_field_0",
+              "source": "string_field_0",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
       },
       "isGroup": true,
       "group": "",
