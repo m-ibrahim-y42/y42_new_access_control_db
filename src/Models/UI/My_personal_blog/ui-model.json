@@ -1,5 +1,45 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "92ae33fb-17d1-4614-be91-8602bd237399",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "92ae33fb-17d1-4614-be91-8602bd237399",
+        "title": "src/Integrations/Users/username.csv",
+        "transformationType": "INPUT",
+        "datasourceName": "Users",
+        "transformObject": {
+          "source": "src/Integrations/Users",
+          "table": "src/Integrations/Users/username.csv",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-433 -78"
+    },
+    {
+      "key": "cf11bb27-249d-414e-95f1-dd9b3d6c0f86",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "cf11bb27-249d-414e-95f1-dd9b3d6c0f86",
+        "title": "My_personal_blog",
+        "transformationType": "OUTPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-68.85294117647061 -78.16326530612247"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "92ae33fb-17d1-4614-be91-8602bd237399",
+      "to": "cf11bb27-249d-414e-95f1-dd9b3d6c0f86",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
