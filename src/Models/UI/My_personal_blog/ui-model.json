@@ -8,16 +8,16 @@
         "id": "92ae33fb-17d1-4614-be91-8602bd237399",
         "title": "src/Integrations/Users/username.csv",
         "transformationType": "INPUT",
-        "datasourceName": "Users",
+        "datasourceName": "graders",
         "transformObject": {
-          "source": "src/Integrations/Users",
-          "table": "src/Integrations/Users/username.csv",
+          "source": "src/Integrations/graders",
+          "table": "src/Integrations/graders/grades.csv",
           "lang": ""
         }
       },
       "isGroup": true,
       "group": "",
-      "location": "-433 -78"
+      "location": "-643 -78"
     },
     {
       "key": "cf11bb27-249d-414e-95f1-dd9b3d6c0f86",
@@ -47,11 +47,36 @@
       "isGroup": true,
       "group": "",
       "location": "-68.85294117647061 -78.16326530612247"
+    },
+    {
+      "key": "d1cb5b98-2671-4a1a-90d4-ee63fab48b16",
+      "type": "SORT",
+      "category": "SORT",
+      "transformationStep": {
+        "id": "d1cb5b98-2671-4a1a-90d4-ee63fab48b16",
+        "title": "",
+        "transformationType": "SORT",
+        "transformObject": [
+          {
+            "target": "first_name",
+            "order": "DESC"
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-383.9558823529412 -83.65306122448976"
     }
   ],
   "linkDataArray": [
     {
       "from": "92ae33fb-17d1-4614-be91-8602bd237399",
+      "to": "d1cb5b98-2671-4a1a-90d4-ee63fab48b16",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "d1cb5b98-2671-4a1a-90d4-ee63fab48b16",
       "to": "cf11bb27-249d-414e-95f1-dd9b3d6c0f86",
       "frompid": "OUT",
       "topid": "IN"
