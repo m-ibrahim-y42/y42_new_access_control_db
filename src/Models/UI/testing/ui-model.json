@@ -1,5 +1,58 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "15b575ce-795a-4169-a033-7546a7adaf60",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "15b575ce-795a-4169-a033-7546a7adaf60",
+        "title": "",
+        "transformationType": "INPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-1103.7438016528927 -496.89622641509436"
+    },
+    {
+      "key": "be49d869-e35e-4b0e-acbb-7a3f39d1ae6d",
+      "type": "REPLACE",
+      "category": "REPLACE",
+      "transformationStep": {
+        "id": "be49d869-e35e-4b0e-acbb-7a3f39d1ae6d",
+        "title": "",
+        "transformationType": "REPLACE"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-657.0085075352456 -497.7125529457066"
+    },
+    {
+      "key": "f4d36bd6-33a3-4110-afed-6623125d1a19",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "f4d36bd6-33a3-4110-afed-6623125d1a19",
+        "title": "testing",
+        "transformationType": "OUTPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-274.0673310646574 -498.85541008856376"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "15b575ce-795a-4169-a033-7546a7adaf60",
+      "to": "be49d869-e35e-4b0e-acbb-7a3f39d1ae6d",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "be49d869-e35e-4b0e-acbb-7a3f39d1ae6d",
+      "to": "f4d36bd6-33a3-4110-afed-6623125d1a19",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }

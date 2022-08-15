@@ -31,7 +31,7 @@
           "name": "my_personal_blog",
           "fields": [
             {
-              "target": "string_field_0",
+              "target": "string_field_2",
               "source": "string_field_0",
               "type": "STRING",
               "display": true,
