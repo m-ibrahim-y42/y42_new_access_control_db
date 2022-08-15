@@ -8,7 +8,7 @@
         "id": "92ae33fb-17d1-4614-be91-8602bd237399",
         "title": "src/Integrations/Users/username.csv",
         "transformationType": "INPUT",
-        "datasourceName": "graders",
+        "datasourceName": "grades",
         "transformObject": {
           "source": "src/Integrations/graders",
           "table": "src/Integrations/graders/grades.csv",
