@@ -6,25 +6,18 @@
       "category": "INPUT",
       "transformationStep": {
         "id": "15b575ce-795a-4169-a033-7546a7adaf60",
-        "title": "",
-        "transformationType": "INPUT"
+        "title": "src/Integrations/Users/username.csv",
+        "transformationType": "INPUT",
+        "datasourceName": "grades",
+        "transformObject": {
+          "source": "src/Integrations/address",
+          "table": "src/Integrations/address/grades.csv",
+          "lang": ""
+        }
       },
       "isGroup": true,
       "group": "",
       "location": "-1103.7438016528927 -496.89622641509436"
-    },
-    {
-      "key": "be49d869-e35e-4b0e-acbb-7a3f39d1ae6d",
-      "type": "REPLACE",
-      "category": "REPLACE",
-      "transformationStep": {
-        "id": "be49d869-e35e-4b0e-acbb-7a3f39d1ae6d",
-        "title": "",
-        "transformationType": "REPLACE"
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "-657.0085075352456 -497.7125529457066"
     },
     {
       "key": "f4d36bd6-33a3-4110-afed-6623125d1a19",
@@ -33,22 +26,141 @@
       "transformationStep": {
         "id": "f4d36bd6-33a3-4110-afed-6623125d1a19",
         "title": "testing",
-        "transformationType": "OUTPUT"
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "testing",
+          "fields": [
+            {
+              "target": "last_name",
+              "source": "last_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
       },
       "isGroup": true,
       "group": "",
-      "location": "-274.0673310646574 -498.85541008856376"
+      "location": "-500.0673310646574 -498.85541008856376"
+    },
+    {
+      "key": "24a1fe2d-5032-4f2a-8fd6-52120308b743",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "24a1fe2d-5032-4f2a-8fd6-52120308b743",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "first_name",
+            "source": "first_name",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "ssn",
+            "source": "ssn",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "test1",
+            "source": "test1",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "test2",
+            "source": "test2",
+            "type": "FLOAT",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "test3",
+            "source": "test3",
+            "type": "FLOAT",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "test4",
+            "source": "test4",
+            "type": "FLOAT",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "final",
+            "source": "final",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "grade",
+            "source": "grade",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-796.4055663587751 -497.4472468232576"
     }
   ],
   "linkDataArray": [
     {
       "from": "15b575ce-795a-4169-a033-7546a7adaf60",
-      "to": "be49d869-e35e-4b0e-acbb-7a3f39d1ae6d",
+      "to": "24a1fe2d-5032-4f2a-8fd6-52120308b743",
       "frompid": "OUT",
       "topid": "IN"
     },
     {
-      "from": "be49d869-e35e-4b0e-acbb-7a3f39d1ae6d",
+      "from": "24a1fe2d-5032-4f2a-8fd6-52120308b743",
       "to": "f4d36bd6-33a3-4110-afed-6623125d1a19",
       "frompid": "OUT",
       "topid": "IN"
