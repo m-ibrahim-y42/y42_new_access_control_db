@@ -11,7 +11,7 @@
     "null_marker": "",
     "ignore_unknown_values": false,
     "encoding": "UTF-8",
-    "quote": "\"",
+    "quote": "\"\"",
     "skip_leading_rows": 1
   }
 }
