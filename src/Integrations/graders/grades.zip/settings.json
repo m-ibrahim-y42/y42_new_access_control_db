@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#csv",
+  "content-type": "application/zip",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_newaccesscontrol_3d69ca07ab9e4fdf91450c43e6e52953/o?uploadType=resumable&upload_id=ADPycdtS3k1ffPNhdsMmSEwjzrlz1ePS2tBPBkEzyIryUnIl3qVRuyrdWAU9Nd3NDCr2zgA0K0VUXtLNvoubFcN3w_PoYg",
+  "originalName": "grades.zip",
+  "size": "1292",
+  "uri": "gs://y42_newaccesscontrol_3d69ca07ab9e4fdf91450c43e6e52953/userUploads/v2/524/file-upload/ac34a85a-cf88-4f9d-9b70-1e764fcee226"
+}
