@@ -31,8 +31,96 @@
           "name": "my_personal_blog",
           "fields": [
             {
-              "target": "string_field_2",
-              "source": "string_field_0",
+              "target": "last_name",
+              "source": "last_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "first_name",
+              "source": "first_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ssn",
+              "source": "ssn",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test1",
+              "source": "test1",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test2",
+              "source": "test2",
+              "type": "FLOAT",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test3",
+              "source": "test3",
+              "type": "FLOAT",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test4",
+              "source": "test4",
+              "type": "FLOAT",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "final",
+              "source": "final",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "grade",
+              "source": "grade",
               "type": "STRING",
               "display": true,
               "changed": false,
@@ -65,7 +153,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-383.9558823529412 -83.65306122448976"
+      "location": "-382.9558823529412 -78.65306122448976"
     }
   ],
   "linkDataArray": [
