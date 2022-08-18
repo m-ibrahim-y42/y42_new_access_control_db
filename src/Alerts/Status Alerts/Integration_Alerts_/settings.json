@@ -1,0 +1,34 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.3/alert/status-alert-settings.json",
+  "feature_type": "Integration",
+  "alert_on": [
+    "success"
+  ],
+  "triggered_by": [
+    "user",
+    "orchestration"
+  ],
+  "title": "Alert message for integration",
+  "message_body": "\n<p>Hi,</p><br/>\n\n<p>The {{feature_type}}: {{object_name}} was a {{status}} at {{completed_at}}.</p>\n<p>Here is the link to your {{feature_type}}: {{url}}</p><br/>\n\n<p>Have a nice day,</p>\n<p>Y42</p>\n{{object_name}}",
+  "patterns": [
+    "graders"
+  ],
+  "tags": [],
+  "destinations": [
+    {
+      "type": "internal_notification",
+      "user_ids": [
+        "mohamed.ibrahim@y42.com"
+      ],
+      "team_ids": []
+    },
+    {
+      "type": "email",
+      "custom_emails": [],
+      "user_ids": [
+        "mohamed.ibrahim@y42.com"
+      ],
+      "team_ids": []
+    }
+  ]
+}
