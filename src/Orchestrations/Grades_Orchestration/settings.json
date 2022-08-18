@@ -3,6 +3,16 @@
   "cronExpression": "",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "c6b89dce-ee75-4d9d-a48b-79355fe484b8",
+      "path": "src/Integrations/graders/grades.csv",
+      "location": "-787.1428571428571 -231.4285714285715",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
