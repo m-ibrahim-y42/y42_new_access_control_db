@@ -1,0 +1,7 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.3/visualization/visualization-dashboard-settings.json",
+  "theme": "src/Visualizations/Themes/My Class Dashboard-345d155d-2dd5-4fab-bb93-28853e213b48.json",
+  "order": [
+    "src/Visualizations/Dashboards/My_Class_Dashboard/Tab_1"
+  ]
+}

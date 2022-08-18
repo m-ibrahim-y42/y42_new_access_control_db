@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.3/core/y42-metadata.json",
+  "name": "Testing-3fed2382-8918-48ef-a1d0-db86a9d98789.json",
+  "description": "",
+  "tags": [],
+  "owners": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "experts": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "watchers": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "asset_status": "no status"
+}

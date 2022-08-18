@@ -1,0 +1,165 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.3/visualization/visualization-widget-settings.json",
+  "chart_type": "table",
+  "settings": {
+    "series": [
+      {
+        "field_id": "ce3fa2d1_399a_4992_9378_e6d7c7acbd17",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "showInPercentage": false,
+        "sort": "asc"
+      }
+    ],
+    "dimensions": [
+      {
+        "field_id": "018371aa_e8b3_4302_b8ac_fd93790c8017",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "showInPercentage": false,
+        "sort": "asc"
+      }
+    ],
+    "breakdowns": [],
+    "columnState": [],
+    "groupExpandedKeys": [],
+    "suppressMovable": false,
+    "paging": true,
+    "sortable": true,
+    "resizable": true,
+    "showFooterTotal": false,
+    "rowSettings": {
+      "backgroundColor": "transparent",
+      "borderColor": "#000000",
+      "borderWidth": 1,
+      "fontSize": 12,
+      "align": "center",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "verticalAlign": "middle",
+      "fontFamily": "Arial",
+      "borderRadius": 0,
+      "padding": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "color": "#a7a7a7",
+      "colorTo": "#a7a7a7",
+      "borderPosition": "noneBorder",
+      "wordBreak": "keepAll",
+      "activeStyles": false
+    }
+  },
+  "datasource_table_path": "src/Integrations/graders/grades.csv",
+  "filters": [],
+  "fields": [
+    {
+      "field": "First_name",
+      "aggregation": "COUNT",
+      "type": "STRING",
+      "alias": "COUNT_First_name_ce3fa2d1_399a_4992_9378_e6d7c7acbd17",
+      "id": "ce3fa2d1_399a_4992_9378_e6d7c7acbd17",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "Grade",
+      "aggregation": "VALUE",
+      "type": "STRING",
+      "alias": "VALUE_Grade_018371aa_e8b3_4302_b8ac_fd93790c8017",
+      "id": "018371aa_e8b3_4302_b8ac_fd93790c8017",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}
