@@ -329,6 +329,142 @@
       "isGroup": true,
       "group": "",
       "location": "-489.36360488136313 -249.10659392505272"
+    },
+    {
+      "key": "48b1200a-de48-452e-b702-9b1088a38d96",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "48b1200a-de48-452e-b702-9b1088a38d96",
+        "title": "src/Models/UI/My_personal_blog/my_class_grade_1",
+        "transformationType": "INPUT",
+        "datasourceName": "my_class_grade",
+        "transformObject": {
+          "source": "src/Models/UI/My_personal_blog",
+          "table": "src/Models/UI/My_personal_blog/my_class_grade_1",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-1018.7024478565697 -195.72923543448667"
+    },
+    {
+      "key": "abb8d106-93a3-4a16-94e5-48d02f887513",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "abb8d106-93a3-4a16-94e5-48d02f887513",
+        "title": "my_class_grade_2",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "my_class_grade_2",
+          "fields": [
+            {
+              "target": "last_name",
+              "source": "last_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "first_name",
+              "source": "first_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ssn",
+              "source": "ssn",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test1",
+              "source": "test1",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test2",
+              "source": "test2",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test3",
+              "source": "test3",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test4",
+              "source": "test4",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "final",
+              "source": "final",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "grade",
+              "source": "grade",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-661.2892247160739 -84.314141094864"
     }
   ],
   "linkDataArray": [
@@ -359,6 +495,12 @@
     {
       "from": "68fb158d-c86f-4316-993d-a0219946609c",
       "to": "1f5962ed-3b46-471d-a1e0-5b4cf491a4e8",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "48b1200a-de48-452e-b702-9b1088a38d96",
+      "to": "abb8d106-93a3-4a16-94e5-48d02f887513",
       "frompid": "OUT",
       "topid": "IN"
     }
