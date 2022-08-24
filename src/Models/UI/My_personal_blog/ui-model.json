@@ -17,7 +17,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-720.3229173378004 -400.1044391469622"
+      "location": "-1004.3229173378004 -547.1044391469622"
     },
     {
       "key": "cf11bb27-249d-414e-95f1-dd9b3d6c0f86",
@@ -134,7 +134,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-89.85294117647061 -315.16326530612247"
+      "location": "-45.85294117647061 -258.16326530612247"
     },
     {
       "key": "d1cb5b98-2671-4a1a-90d4-ee63fab48b16",
@@ -154,18 +154,211 @@
       "isGroup": true,
       "group": "",
       "location": "-344.9106533084209 -485.58905117359103"
+    },
+    {
+      "key": "68fb158d-c86f-4316-993d-a0219946609c",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "68fb158d-c86f-4316-993d-a0219946609c",
+        "title": "src/Integrations/garde2/grades.csv",
+        "transformationType": "INPUT",
+        "datasourceName": "garde2",
+        "transformObject": {
+          "source": "src/Integrations/garde2",
+          "table": "src/Integrations/garde2/grades.csv",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-1006.4114586689002 -335.6618725255711"
+    },
+    {
+      "key": "5268f0d8-4104-4406-ba77-34d8c82b85dd",
+      "type": "JOIN",
+      "category": "JOIN",
+      "transformationStep": {
+        "id": "5268f0d8-4104-4406-ba77-34d8c82b85dd",
+        "title": "",
+        "transformationType": "JOIN",
+        "transformObject": {
+          "type": "inner",
+          "left": "92ae33fb-17d1-4614-be91-8602bd237399",
+          "right": "68fb158d-c86f-4316-993d-a0219946609c",
+          "joinConditions": [
+            {
+              "left": "last_name",
+              "right": "last_name"
+            },
+            {
+              "left": "first_name",
+              "right": "first_name"
+            }
+          ],
+          "customMapping": {
+            "last_name": "last_name",
+            "first_name": "first_name",
+            "ssn": "ssn",
+            "test1": "test1",
+            "test2": "test2",
+            "test3": "test3",
+            "test4": "test4",
+            "final": "final",
+            "grade": "grade"
+          }
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-619.6115387656607 -465.55942411373195"
+    },
+    {
+      "key": "1f5962ed-3b46-471d-a1e0-5b4cf491a4e8",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "1f5962ed-3b46-471d-a1e0-5b4cf491a4e8",
+        "title": "my_class_grade_1",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "my_class_grade_1",
+          "fields": [
+            {
+              "target": "last_name",
+              "source": "last_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "first_name",
+              "source": "first_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ssn",
+              "source": "ssn",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test1",
+              "source": "test1",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test2",
+              "source": "test2",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test3",
+              "source": "test3",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test4",
+              "source": "test4",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "final",
+              "source": "final",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "grade",
+              "source": "grade",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-489.36360488136313 -249.10659392505272"
     }
   ],
   "linkDataArray": [
     {
+      "from": "d1cb5b98-2671-4a1a-90d4-ee63fab48b16",
+      "to": "cf11bb27-249d-414e-95f1-dd9b3d6c0f86",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
       "from": "92ae33fb-17d1-4614-be91-8602bd237399",
+      "to": "5268f0d8-4104-4406-ba77-34d8c82b85dd",
+      "frompid": "OUT",
+      "topid": "L"
+    },
+    {
+      "from": "68fb158d-c86f-4316-993d-a0219946609c",
+      "to": "5268f0d8-4104-4406-ba77-34d8c82b85dd",
+      "frompid": "OUT",
+      "topid": "R"
+    },
+    {
+      "from": "5268f0d8-4104-4406-ba77-34d8c82b85dd",
       "to": "d1cb5b98-2671-4a1a-90d4-ee63fab48b16",
       "frompid": "OUT",
       "topid": "IN"
     },
     {
-      "from": "d1cb5b98-2671-4a1a-90d4-ee63fab48b16",
-      "to": "cf11bb27-249d-414e-95f1-dd9b3d6c0f86",
+      "from": "68fb158d-c86f-4316-993d-a0219946609c",
+      "to": "1f5962ed-3b46-471d-a1e0-5b4cf491a4e8",
       "frompid": "OUT",
       "topid": "IN"
     }
