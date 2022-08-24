@@ -1,5 +1,63 @@
 {
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "5c399bec-b6d9-478e-8048-5255d5937a78",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "5c399bec-b6d9-478e-8048-5255d5937a78",
+        "title": "src/Models/UI/My_personal_blog/my_class_grade_1",
+        "transformationType": "INPUT",
+        "datasourceName": "my_class_grade",
+        "transformObject": {
+          "source": "src/Models/UI/My_personal_blog",
+          "table": "src/Models/UI/My_personal_blog/my_class_grades",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-815.1764705882354 -532.030612244898"
+    },
+    {
+      "key": "86c63c98-d6a2-434a-9f41-2ebfe88de8e0",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "86c63c98-d6a2-434a-9f41-2ebfe88de8e0",
+        "title": "src/Models/SQL/Dummy_sql_model/grades",
+        "transformationType": "INPUT",
+        "datasourceName": "Dummy_sql_model",
+        "transformObject": {
+          "source": "src/Models/SQL/Dummy_sql_model",
+          "table": "src/Models/SQL/Dummy_sql_model/grades",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-814.029411764706 -372.6020408163265"
+    },
+    {
+      "key": "04dd2309-d75b-4063-8fec-5a34c66f2d49",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "04dd2309-d75b-4063-8fec-5a34c66f2d49",
+        "title": "src/Integrations/garde2/grades.csv",
+        "transformationType": "INPUT",
+        "datasourceName": "garde2",
+        "transformObject": {
+          "source": "src/Integrations/garde2",
+          "table": "src/Integrations/garde2/grades.csv",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-809.4411764705883 -169.74489795918367"
+    }
+  ],
   "linkDataArray": [],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
