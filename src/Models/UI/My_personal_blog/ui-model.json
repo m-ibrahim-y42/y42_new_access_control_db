@@ -465,6 +465,19 @@
       "isGroup": true,
       "group": "",
       "location": "-661.2892247160739 -84.314141094864"
+    },
+    {
+      "key": "d04c7a45-7704-4012-8e5c-941fbe7ff88e",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "d04c7a45-7704-4012-8e5c-941fbe7ff88e",
+        "title": "",
+        "transformationType": "INPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-937.2188709871084 164.47438334847465"
     }
   ],
   "linkDataArray": [
