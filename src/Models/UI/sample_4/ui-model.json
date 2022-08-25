@@ -1,5 +1,363 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "0d35dc1a-01c3-43ee-a60c-258768039842",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "0d35dc1a-01c3-43ee-a60c-258768039842",
+        "title": "src/Integrations/sample3/grades.csv",
+        "transformationType": "INPUT",
+        "datasourceName": "sample3",
+        "transformObject": {
+          "source": "src/Integrations/sample3",
+          "table": "src/Integrations/sample3/grades.csv",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-597.6115702479339 -247.89622641509433"
+    },
+    {
+      "key": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+        "title": "src/Models/UI/My_personal_blog/my_class_grade_1",
+        "transformationType": "INPUT",
+        "datasourceName": "my_class_grade",
+        "transformObject": {
+          "source": "src/Models/UI/My_personal_blog",
+          "table": "src/Models/UI/My_personal_blog/my_class_grade_1",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-591.6280991735537 -48.89622641509436"
+    },
+    {
+      "key": "c79e697a-92e7-4436-8758-d9e43451fd69",
+      "type": "UNION",
+      "category": "UNION",
+      "transformationStep": {
+        "id": "c79e697a-92e7-4436-8758-d9e43451fd69",
+        "title": "",
+        "transformationType": "UNION",
+        "transformObject": {
+          "fields": [
+            {
+              "key": "0d35dc1a-01c3-43ee-a60c-258768039842",
+              "target": "last_name",
+              "source": "last_name",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "0d35dc1a-01c3-43ee-a60c-258768039842",
+              "target": "first_name",
+              "source": "first_name",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "0d35dc1a-01c3-43ee-a60c-258768039842",
+              "target": "ssn",
+              "source": "ssn",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "0d35dc1a-01c3-43ee-a60c-258768039842",
+              "target": "test1",
+              "source": "test1",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "0d35dc1a-01c3-43ee-a60c-258768039842",
+              "target": "test2",
+              "source": "test2",
+              "type": "FLOAT",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "0d35dc1a-01c3-43ee-a60c-258768039842",
+              "target": "test3",
+              "source": "test3",
+              "type": "FLOAT",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "0d35dc1a-01c3-43ee-a60c-258768039842",
+              "target": "test4",
+              "source": "test4",
+              "type": "FLOAT",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "0d35dc1a-01c3-43ee-a60c-258768039842",
+              "target": "final",
+              "source": "final",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "0d35dc1a-01c3-43ee-a60c-258768039842",
+              "target": "grade",
+              "source": "grade",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+              "target": "last_name",
+              "source": "last_name",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+              "target": "first_name",
+              "source": "first_name",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+              "target": "ssn",
+              "source": "ssn",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+              "target": "test1",
+              "source": "test1",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+              "target": "test2",
+              "source": "test2",
+              "type": "FLOAT",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+              "target": "test3",
+              "source": "test3",
+              "type": "FLOAT",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+              "target": "test4",
+              "source": "test4",
+              "type": "FLOAT",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+              "target": "final",
+              "source": "final",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            },
+            {
+              "key": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+              "target": "grade",
+              "source": "grade",
+              "type": "STRING",
+              "display": true,
+              "description": "",
+              "source_alias": ""
+            }
+          ],
+          "tables": [
+            "0d35dc1a-01c3-43ee-a60c-258768039842",
+            "deb4daa9-13dd-4c45-93fd-fa3b336223b1"
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-234.57024793388427 -178.53773584905662"
+    },
+    {
+      "key": "793360b6-9eb8-445a-b469-2e1579fec5ff",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "793360b6-9eb8-445a-b469-2e1579fec5ff",
+        "title": "sample_4",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "sample_4",
+          "fields": [
+            {
+              "target": "last_name",
+              "source": "last_name",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "first_name",
+              "source": "first_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ssn",
+              "source": "ssn",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test1",
+              "source": "test1",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test2",
+              "source": "test2",
+              "type": "FLOAT",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test3",
+              "source": "test3",
+              "type": "FLOAT",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "test4",
+              "source": "test4",
+              "type": "FLOAT",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "final",
+              "source": "final",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "grade",
+              "source": "grade",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "148.10743801652893 -179.04716981132077"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "0d35dc1a-01c3-43ee-a60c-258768039842",
+      "to": "c79e697a-92e7-4436-8758-d9e43451fd69",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "deb4daa9-13dd-4c45-93fd-fa3b336223b1",
+      "to": "c79e697a-92e7-4436-8758-d9e43451fd69",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "c79e697a-92e7-4436-8758-d9e43451fd69",
+      "to": "793360b6-9eb8-445a-b469-2e1579fec5ff",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
