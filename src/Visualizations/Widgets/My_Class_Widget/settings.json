@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.3/visualization/visualization-widget-settings.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.4/visualization/visualization-widget-settings.json",
   "chart_type": "table",
   "settings": {
     "series": [
@@ -146,7 +146,6 @@
       "alias": "COUNT_First_name_ce3fa2d1_399a_4992_9378_e6d7c7acbd17",
       "id": "ce3fa2d1_399a_4992_9378_e6d7c7acbd17",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -157,7 +156,6 @@
       "alias": "VALUE_Grade_018371aa_e8b3_4302_b8ac_fd93790c8017",
       "id": "018371aa_e8b3_4302_b8ac_fd93790c8017",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     }
