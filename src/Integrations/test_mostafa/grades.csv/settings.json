@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/file-upload/0.0.0/source.json#csv",
+  "content-type": "text/csv",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_newaccesscontrol_3d69ca07ab9e4fdf91450c43e6e52953/o?uploadType=resumable&upload_id=ADPycdvPWV9GfpQYayjq5nwnMZojJERzrQT22oZycJbkGnZ4eUbVvDHHlOLJBOcGQLI6z5O220Ie7RdP5aHb0aD2eN_cdpB5VitZ",
+  "originalName": "grades.csv",
+  "size": "1545",
+  "uri": "gs://y42_newaccesscontrol_3d69ca07ab9e4fdf91450c43e6e52953/userUploads/v2/524/file-upload/5903a18a-8ca0-4cb5-89b7-ab5e57853448",
+  "csv_options": {
+    "field_delimiter": ",",
+    "allow_quoted_new_lines": true,
+    "null_marker": "",
+    "ignore_unknown_values": false,
+    "encoding": "UTF-8",
+    "quote": "\"",
+    "skip_leading_rows": null
+  }
+}
